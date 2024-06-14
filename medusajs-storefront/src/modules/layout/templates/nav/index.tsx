@@ -1,6 +1,12 @@
 import { headers } from "next/headers"
 import { Suspense } from "react"
 
+
+
+
+
+
+
 import { listRegions } from "@lib/data"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import CartButton from "@modules/layout/components/cart-button"
@@ -21,10 +27,11 @@ export default async function Nav() {
 
           <div className="flex items-center h-full">
             <LocalizedClientLink
-              href="/"
-              className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
+                href="/"
+                className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
             >
-              Medusa Store
+
+              <img src="https://res.cloudinary.com/dzqns7kss/image/upload/v1718339490/dgfwjno4c1evcozsvig2.png" alt="adamantio" width={150}/>
             </LocalizedClientLink>
           </div>
 
